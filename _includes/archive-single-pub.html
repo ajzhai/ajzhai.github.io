@@ -29,6 +29,10 @@
     flex-shrink: 0; /* Prevent the image from shrinking */
     margin-right: 20px; /* Add some spacing between the image and title */
   }
+
+  .archive__item-text {
+    flex-grow: 1; /* Allow the title to take up remaining space */
+  }
 </style>
 
 <div class="{{ include.type | default: "list" }}__item">
@@ -46,7 +50,7 @@
             alt="" style="max-width: 250px;"> <!-- Adjust the width as per your requirement -->
         </div>
       {% endif %}
-      <div>
+      <div class="archive__item-text">
       <h2 class="archive__item-title" itemprop="headline">
         {% if post.link %}
           <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
