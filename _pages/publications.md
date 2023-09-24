@@ -15,4 +15,4 @@ author_profile: true
   {% include archive-single-pub.html %}
 {% endfor %}
 
-A full list of my publications and conference presentations can be found on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+A full list of my publications and conference presentations can be found on <u><a href="{{ author.googlescholar }}">my Google Scholar profile</a>.</u>
