@@ -28,8 +28,16 @@
   .archive__item-teaser {
     flex-shrink: 0; /* Prevent the image from shrinking */
     margin-right: 20px; /* Add some spacing between the image and title */
+    width: 240px; /* Set your desired width here */
+    height: 130px; /* Set your desired height here */
+    overflow: hidden; /* Ensure the image is contained within the fixed dimensions */
   }
 
+  .teaser-image {
+    width: auto; /* Let the image adapt its width */
+    height: 100%; /* Make the image take the full height of its container */
+    object-fit: contain; /* Ensure the image is fully contained without cropping */
+  }
 
   .archive__item-title {
     margin-top: 0;

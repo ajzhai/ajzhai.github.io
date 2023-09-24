@@ -4,7 +4,7 @@ authors: 'Yuan Shen, Bhargav Chandaka, Zhi-hao Lin, <b>Albert J. Zhai</b>, Hang 
 collection: publications
 permalink: /publication/2023-06-15-simonwheels
 excerpt: 
-teaser: 
+teaser: simonwheels_teaser.png
 date: 2023-06-15
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2306.08807'
