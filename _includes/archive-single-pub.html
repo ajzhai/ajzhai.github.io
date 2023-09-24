@@ -20,6 +20,15 @@
   img {
     float: left;
   }
+  .archive__item-container {
+    display: flex;
+    align-items: center; /* Vertically center-align the items */
+  }
+
+  .archive__item-teaser {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    margin-right: 10px; /* Add some spacing between the image and title */
+  }
 </style>
 
 <div class="{{ include.type | default: "list" }}__item">
