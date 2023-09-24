@@ -6,7 +6,7 @@ permalink: /publication/2023-06-15-simonwheels
 excerpt: 
 teaser: 
 date: 2023-06-15
-venue: 'arXiv preprint, 2023'
+venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2306.08807'
 projecturl: 'https://sim-on-wheels.github.io/'
 codeurl: 'https://github.com/Sim-on-Wheels'
