@@ -16,10 +16,4 @@ My research focuses on computer vision and robotics, but I am broadly interested
 
 My middle name, Jianqiao, is my Chinese given name (翟健乔). However, I usually go by Albert.
 
-<!-- 
-**Publications**
-{% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single-pub.html %}
-{% endfor %} -->
