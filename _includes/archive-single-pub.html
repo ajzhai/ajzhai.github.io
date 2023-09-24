@@ -30,7 +30,8 @@
     margin-right: 20px; /* Add some spacing between the image and title */
     width: 240px; /* Set your desired width here */
     height: 150px; /* Set your desired height here */
-    overflow: center; /* Ensure the image is contained within the fixed dimensions */
+    display: flex;
+    overflow: hidden; /* Ensure the image is contained within the fixed dimensions */
     align-items: center;
     justify-content: center;
   }
@@ -63,7 +64,7 @@
         </div>
       {% endif %}
       <div class="archive__item-text">
-        <h2 class="archive__item-title" itemprop="headline"  style="font-size:1em">
+        <h2 class="archive__item-title" itemprop="headline"  style="font-size:1.25em">
           {% if post.link %}
             <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
           {% else %}
