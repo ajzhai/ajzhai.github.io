@@ -4,7 +4,7 @@ authors: 'Hui Su, Longtao Wu, Jonathan H Jiang, Raksha Pai, Alex Liu, <b>Albert 
 collection: publications
 permalink: /publication/2020-09-16-ri-forecast
 excerpt: 
-teaser: 
+teaser: ri_teaser.png
 date: 2020-09-16
 venue: 'Geophysical Research Letters'
 paperurl: 'https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2020GL089102'
