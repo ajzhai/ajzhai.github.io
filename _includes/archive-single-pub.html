@@ -27,7 +27,7 @@
 
   .archive__item-teaser {
     flex-shrink: 0; /* Prevent the image from shrinking */
-    margin-right: 10px; /* Add some spacing between the image and title */
+    margin-right: 20px; /* Add some spacing between the image and title */
   }
 </style>
 
@@ -43,7 +43,7 @@
             {% else %}
               "{{ teaser | prepend: "/images/" | prepend: base_path }}"
             {% endif %}
-            alt="" style="max-width: 200px;"> <!-- Adjust the width as per your requirement -->
+            alt="" style="max-width: 250px;"> <!-- Adjust the width as per your requirement -->
         </div>
       {% endif %}
       <div>
@@ -101,8 +101,10 @@
           <a href="{{ post.codeurl }}">[Code]</a>
         {% endif %}
       </p>
-      <hr>
+      
     </div>
+
+    <hr>
     </div>
 
 
