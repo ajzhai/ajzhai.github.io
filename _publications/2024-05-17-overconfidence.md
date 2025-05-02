@@ -1,6 +1,6 @@
 ---
 title: "On the Overconfidence Problem in Semantic 3D Mapping"
-authors: 'Joao Marcos Correia Marques, <b>Albert J. Zhai</b>, Shenlong Wang, Kris Hauser'
+authors: 'Joao M. C. Marques, <b>Albert J. Zhai</b>, Shenlong Wang, Kris Hauser'
 collection: publications
 permalink: /publication/2024-05-17-overconfidence
 excerpt: 
