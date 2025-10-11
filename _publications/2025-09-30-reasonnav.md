@@ -4,7 +4,7 @@ authors: 'Bhargav Chandaka*, Gloria X. Wang*, Haozhe Chen, Henry Che, <b>Albert 
 collection: publications
 permalink: /publication/2025-09-30-reasonnav
 excerpt: 
-teaser: reasonnav.mp4
+teaser: reasonnav_siebel.gif
 date: 2025-09-30
 venue: 'Conference on Robot Learning (CoRL)'
 paperurl: 'https://arxiv.org/abs/2509.21189'
