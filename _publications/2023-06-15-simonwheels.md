@@ -1,6 +1,6 @@
 ---
 title: "Sim-on-Wheels: Physical World in the Loop Simulation for Self-Driving"
-authors: 'Yuan Shen, Bhargav Chandaka, Zhi-hao Lin, <b>Albert J. Zhai</b>, Hang Cui, David Forsyth, Shenlong Wang'
+authors: 'Yuan Shen, Bhargav Chandaka, Zhi-Hao Lin, <b>Albert J. Zhai</b>, Hang Cui, David Forsyth, Shenlong Wang'
 collection: publications
 permalink: /publication/2023-06-15-simonwheels
 excerpt: 
