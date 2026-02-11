@@ -7,8 +7,8 @@ excerpt:
 teaser: cropcraft_results.gif
 date: 2026-03-23
 venue: 'International Conference on 3D Vision (3DV) (Oral)'
-paperurl: 
-projecturl: 
-codeurl: 
+paperurl: 'https://arxiv.org/abs/2411.09693'
+projecturl: 'https://ajzhai.github.io/CropCraft/'
+codeurl: 'https://github.com/ajzhai/CropCraft'
 citation: 
 ---

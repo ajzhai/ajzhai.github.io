@@ -14,6 +14,6 @@ I am a Ph.D. student in the computer science department at the University of Ill
 
 My research focuses on computer vision and robotics, but I am broadly interested in other areas of artificial intelligence as well. Currently, I work on 3D perception. I am particularly interested in how geometric and semantic understanding can complement each other.
 
-My middle name, Jianqiao, is my Chinese given name (翟健乔). However, I usually go by Albert.
+I am Chinese American. My middle name, Jianqiao, is my Chinese given name (翟健乔). However, I usually go by Albert.
 
 
