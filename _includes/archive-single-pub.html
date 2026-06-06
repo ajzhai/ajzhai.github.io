@@ -16,6 +16,20 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% assign teaser_lower = teaser | downcase %}
+{% assign teaser_is_video = false %}
+{% assign teaser_video_type = "" %}
+{% if teaser_lower contains ".mp4" or teaser_lower contains ".webm" or teaser_lower contains ".mov" or teaser_lower contains ".m4v" %}
+  {% assign teaser_is_video = true %}
+{% endif %}
+{% if teaser_lower contains ".webm" %}
+  {% assign teaser_video_type = "video/webm" %}
+{% elsif teaser_lower contains ".mov" %}
+  {% assign teaser_video_type = "video/quicktime" %}
+{% else %}
+  {% assign teaser_video_type = "video/mp4" %}
+{% endif %}
+
 <style>
   img {
     float: left;
@@ -55,13 +69,25 @@
     <div class="archive__item-container">
       {% if teaser %}
         <div class="archive__item-teaser">
-          <img src=
-            {% if teaser contains "://" %}
-              "{{ teaser }}"
-            {% else %}
-              "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-            {% endif %}
-            alt="" class="teaser-image"> <!-- Adjust the width as per your requirement -->
+          {% if teaser_is_video %}
+            <video autoplay loop muted playsinline preload="metadata" class="teaser-image">
+              <source src=
+                {% if teaser contains "://" %}
+                  "{{ teaser }}"
+                {% else %}
+                  "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+                {% endif %}
+                type="{{ teaser_video_type }}">
+            </video>
+          {% else %}
+            <img src=
+              {% if teaser contains "://" %}
+                "{{ teaser }}"
+              {% else %}
+                "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+              {% endif %}
+              alt="" class="teaser-image">
+          {% endif %}
         </div>
       {% endif %}
       <div class="archive__item-text">
